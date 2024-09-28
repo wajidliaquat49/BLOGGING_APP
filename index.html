@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/4aa450a08a.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Blogging App by Wajid</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="logo">
+        <h1 id="h1_ID"><i class="fa-solid fa-blog"></i> Blogg App</h1>
+      </div>
+      <div class="navlist" id="navId">
+        <ul id="ul_Id">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#" id="Contact">Contact</a></li>
+          <li><a href="#">Categories</a></li>
+          <li id="myproduct_Id"><a href="#">Posts</a></li>
+          <li>
+            <a href="/addPost/index.html" id="addItems" class="sameAnch"
+              >Add Post</a
+            >
+          </li>
+          <li id="fbLiID">
+            <a href="./feedback/index.html" id="fbItems" class="sameAnch"
+              >Write a Blog</a
+            >
+          </li>
+          <li>
+            <a href="./login/index.html" id="login" class="sameAnch">Login</a>
+          </li>
+          <!-- <li><button id="signout_btn">Sign Out</button></li> -->
+        </ul>
+        <div style="width: 100%" class="btn_img_div">
+          <button id="signout_btn">Sign Out</button>
+          <img
+            src="download.jpg"
+            alt="Profile"
+            id="profile_image"
+            style="display: none"
+          />
+        </div>
+      </div>
+    </div>
+    <div id="cards_container"></div>
+    <a href="./orderForm/index.html"></a>
+    <!-- Footer Section -->
+    <footer
+      style="
+        background-color: #1e88e5;
+        color: #ffffff;
+        padding: 20px;
+        text-align: center;
+      "
+      id="footer_section"
+    >
+      <div style="max-width: 1200px; margin: auto">
+        <p style="margin: 0">
+          &copy; 2024 Blog By Wajid Ali. All Rights Reserved.
+        </p>
+        <p style="margin: 10px 0">
+          <a
+            href="/about"
+            style="color: #ffffff; text-decoration: none; margin: 0 15px"
+            >About</a
+          >
+          <a
+            href="/contact"
+            style="color: #ffffff; text-decoration: none; margin: 0 15px"
+            >Contact</a
+          >
+          <a
+            href="/privacy"
+            style="color: #ffffff; text-decoration: none; margin: 0 15px"
+            >Privacy Policy</a
+          >
+        </p>
+        <p style="margin: 10px 0">
+          Follow us on
+          <a
+            href="https://twitter.com/yourblog"
+            style="color: #ffffff; text-decoration: none"
+            >Twitter</a
+          >,
+          <a
+            href="https://facebook.com/yourblog"
+            style="color: #ffffff; text-decoration: none"
+            >Facebook</a
+          >,
+          <a
+            href="https://instagram.com/yourblog"
+            style="color: #ffffff; text-decoration: none"
+            >Instagram</a
+          >
+        </p>
+        <p style="margin: 10px 0; font-size: 0.8em">
+          Made with ❤️ by Wajid's Blog Team
+        </p>
+      </div>
+    </footer>
+
+    <script src="app.js" type="module"></script>
+  </body>
+</html>

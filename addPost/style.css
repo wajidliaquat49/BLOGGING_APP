@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #cec8c8;
+}
+
+.container {
+  width: 25%;
+  height: 450px;
+  margin: auto auto;
+  margin-top: 80px;
+  border: 2px solid #42a5f5;
+  background-color: #fbfbfb;
+  border-radius: 02px;
+}
+
+h2 {
+  text-align: center;
+  padding-top: 15px;
+  color: #42a5f5;
+}
+
+#productImage {
+  display: flex;
+  justify-content: center;
+}
+
+#data {
+  width: 100%;
+  height: 350px;
+  margin-top: 20px;
+}
+
+#productForm {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#Product {
+  border: 1px solid #42a5f5;
+  background-color: #fbfbfb;
+  box-shadow: 7px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  color: #42a5f5;
+}
+
+#Quantity {
+  border: 1px solid #42a5f5;
+  background-color: #fbfbfb;
+  box-shadow: 7px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  color: #42a5f5;
+}
+
+#Price {
+  border: 1px solid #42a5f5;
+  background-color: #fbfbfb;
+  box-shadow: 7px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  color: #42a5f5;
+}
+
+.form_proImg_parent {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 85%;
+}
+
+.order_input {
+  width: 80%;
+  height: 40px;
+  padding-left: 10px;
+  background-color: #fbfbfb;
+  box-shadow: 7px 10px 15px -3px rgba(0, 0, 0, 0.1);
+  border: 1px solid #42a5f5;
+  border-radius: 4px;
+  color: black;
+  outline-color: #42a5f5;
+}
+
+#formFileLg {
+  width: 100%;
+  height: 35px;
+  border: 1px solid #42a5f5;
+  background-color: #fbfbfb;
+}
+
+.btn_div {
+  display: flex;
+  justify-content: center;
+  margin-top: 08px;
+}
+
+#order_submit {
+  width: 85%;
+  height: 40px;
+  background-color: #42a5f5;
+  border: 1px solid #42a5f5;
+  border-radius: 4px;
+  color: white;
+  margin-top: 05px;
+  cursor: pointer;
+}
+
+#order_submit:hover {
+  background-color: #42a5f5;
+  border: 1px solid #42a5f5;
+  transition: 0.3s;
+}
+
+#post_textArea {
+  width: 100%;
+  height: 110px;
+  padding-left: 05px;
+  outline: #42a5f5;
+  border: 1px solid #42a5f5;
+  color: #42a5f5;
+}
